@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  place-items:center;
+  min-height: 100vh;
+  /* background: black; */
+}
+#canvas{
+  /* border: 1px dashed orange; */
+  height: 300px;
+  width: 300px;
+  filter: url(#wavy);
+}
+#img{
+  position: absolute;
+  max-height: 15rem;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+img{
+  display: none;
+}
